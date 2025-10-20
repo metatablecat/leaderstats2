@@ -43,7 +43,7 @@ function Templates:BaseGui()
 	
 	local playersDivider = Templates:Divider("Players", Color3.fromRGB(31, 31, 31))
 	playersDivider.Name = "PlayersHeader"
-	playersDivider.AutomaticSize = Enum.AutomaticSize.None
+	playersDivider.AutomaticSize = Enum.AutomaticSize.X
 	playersDivider.AnchorPoint = Vector2.new(1, 0)
 	playersDivider.Position = UDim2.new(1, 0, 0, 2)
 	playersDivider.Visible = false
